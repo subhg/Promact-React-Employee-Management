@@ -1,0 +1,29 @@
+/* src/components/Navigation.css */
+.navigation-container {
+  background-color: #561C24; /* Background color for the navigation container */
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: white; /* Text color for navigation links */
+  text-decoration: none;
+  margin-left: 15px; /* Spacing between navigation links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.nav-links a:hover {
+  color: #C7B7A3; /* Color on hover for navigation links */
+}

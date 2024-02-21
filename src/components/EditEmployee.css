@@ -1,0 +1,54 @@
+/* src/components/EditEmployee.css */
+
+/* Container styling for the edit employee form */
+.edit-employee-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling for labels in the form */
+.edit-employee-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styling for input fields in the form */
+.edit-employee-container input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Styling for update and cancel buttons in the form */
+.update-button,
+.cancel-button {
+  background-color: #561C24;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for update and cancel buttons */
+.update-button:hover,
+.cancel-button:hover {
+  background-color: #6D2932;
+}
+
+/* Styling for success message display */
+.success-message {
+  background-color: #C7B7A3;
+  color: green;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}

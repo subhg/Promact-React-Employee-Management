@@ -1,0 +1,83 @@
+/* src/components/EmployeeList.css */
+
+/* Style for the heading */
+h2 {
+  text-align: center;
+}
+
+/* Style for the container holding the employee list */
+.employee-list-container {
+  background-color: #E8D8C4; /* Background color */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 600px; /* Decreased max-width for better presentation */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* Center the heading */
+}
+
+/* Style for the table holding employee data */
+table {
+  width: 50%; /* Set table width to 50% */
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin: auto;
+}
+
+/* Style for horizontal scrolling in case table overflows */
+.scroll {
+  overflow-x: auto;
+}
+
+/* Style for table header and cells */
+th, td {
+  border: 1px solid #561C24; /* Border color */
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for table header */
+th {
+  background-color: #6D2932; /* Header background color */
+  color: white; /* Header text color */
+}
+
+/* Alternating row background colors for better readability */
+tr:nth-child(even) {
+  background-color: #C7B7A3; /* Even row background color */
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #A9917F; /* Adjusted hover color to complement the alternating colors */
+}
+
+/* Style for buttons in the table */
+.edit-button,
+.delete-button {
+  background-color: #561C24; /* Button background color */
+  color: white; /* Button text color */
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Hover effect for buttons */
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #6D2932; /* Darker background color on hover */
+}
+
+.success-message{
+  background-color: #C7B7A3;
+  color: green;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin:auto;
+  width:50%;
+}
