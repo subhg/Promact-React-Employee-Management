@@ -2,17 +2,17 @@
 
 /* Body styles */
 body {
-  margin: 0; /* Remove default body margin */
-  font-family: 'Arial', sans-serif; /* Set default font family */
-  background-color: #E8D8C4; /* Set background color */
+  margin: 0; 
+  font-family: 'Arial', sans-serif; 
+  background-color: #E8D8C4; 
 }
 
 /* Main container styles */
 .app-container {
-  max-width: 1200px; /* Set maximum width for the main container */
-  margin: 20px auto; /* Center the container horizontally with some top margin */
-  padding: 20px; /* Add padding inside the container */
-  background-color: #FFFFFF; /* Set background color for the container */
-  border-radius: 8px; /* Add border radius for rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+  max-width: 1200px; 
+  margin: 20px auto; 
+  padding: 20px; 
+  background-color: #FFFFFF; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
