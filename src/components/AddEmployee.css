@@ -34,7 +34,7 @@
   border-radius: 5px;
   cursor: pointer;
   margin-right: 10px;
-  transition: background-color 0.3s; /* Smooth transition on hover */
+  transition: background-color 0.3s; 
 }
 
 /* Hover effect for the 'Add Employee' button */
