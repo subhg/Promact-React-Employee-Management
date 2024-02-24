@@ -7,19 +7,19 @@ h2 {
 
 /* Style for the container holding the employee list */
 .employee-list-container {
-  background-color: #E8D8C4; /* Background color */
+  background-color: #E8D8C4; 
   padding: 20px;
   border-radius: 8px;
   margin-top: 20px;
-  max-width: 600px; /* Decreased max-width for better presentation */
+  max-width: 600px; 
   margin-left: auto;
   margin-right: auto;
-  text-align: center; /* Center the heading */
+  text-align: center; 
 }
 
 /* Style for the table holding employee data */
 table {
-  width: 50%; /* Set table width to 50% */
+  width: 50%; 
   border-collapse: collapse;
   margin-top: 20px;
   margin: auto;
@@ -32,44 +32,44 @@ table {
 
 /* Style for table header and cells */
 th, td {
-  border: 1px solid #561C24; /* Border color */
+  border: 1px solid #561C24; 
   padding: 10px;
   text-align: left;
 }
 
 /* Style for table header */
 th {
-  background-color: #6D2932; /* Header background color */
-  color: white; /* Header text color */
+  background-color: #6D2932; 
+  color: white; 
 }
 
 /* Alternating row background colors for better readability */
 tr:nth-child(even) {
-  background-color: #C7B7A3; /* Even row background color */
+  background-color: #C7B7A3; 
 }
 
 /* Hover effect for table rows */
 tr:hover {
-  background-color: #A9917F; /* Adjusted hover color to complement the alternating colors */
+  background-color: #A9917F; 
 }
 
 /* Style for buttons in the table */
 .edit-button,
 .delete-button {
-  background-color: #561C24; /* Button background color */
-  color: white; /* Button text color */
+  background-color: #561C24; 
+  color: white; 
   padding: 8px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-right: 5px;
-  transition: background-color 0.3s; /* Smooth transition on hover */
+  transition: background-color 0.3s; 
 }
 
 /* Hover effect for buttons */
 .edit-button:hover,
 .delete-button:hover {
-  background-color: #6D2932; /* Darker background color on hover */
+  background-color: #6D2932; 
 }
 
 .success-message{
