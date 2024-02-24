@@ -3,18 +3,18 @@ import { createSlice } from '@reduxjs/toolkit';
 
 // Create a Redux slice for managing employee data
 const employeesSlice = createSlice({
-  name: 'employees', // Slice name
-  initialState: [], // Initial state is an empty array
+  name: 'employees', 
+  initialState: [], 
   reducers: {
     // Reducer to add a new employee to the state
     addEmployee: (state, action) => {
-      state.push(action.payload); // Add the new employee to the array
+      state.push(action.payload); 
     },
     // Reducer to update an existing employee in the state
     updateEmployee: (state, action) => {
       const index = state.findIndex((emp) => emp.id === action.payload.id);
       if (index !== -1) {
-        state[index] = action.payload; // Update the existing employee with the new data
+        state[index] = action.payload; 
       }
     },
     // Reducer to delete an employee from the state
