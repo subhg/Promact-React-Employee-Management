@@ -10,8 +10,8 @@ const Navigation = () => {
       <div className="brand">Employee Management System</div>
       {/* Navigation links on the right */}
       <div className="nav-links">
-        <Link to="/add">Add Employee</Link> {/* Link to the Add Employee page */}
-        <Link to="/list">View Employee</Link> {/* Link to the View Employee page */}
+        <Link to="/add">Add Employee</Link> 
+        <Link to="/list">View Employee</Link> 
       </div>
     </div>
   );
